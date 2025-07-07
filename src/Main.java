@@ -9,8 +9,8 @@ public class Main {
         // Рассчитываете количество бонусных миль, используя
         // значения заведённых переменных. Ответ сохраняете в
         // новую переменную и выводите на экран
-        int ticket_price = 13676;
-        int bonus = ticket_price / 20;
+        int ticketPrice = 13676;
+        int bonus = ticketPrice / 20;
 
         System.out.println("Начисленно " + bonus + " бонусных миль");
 
