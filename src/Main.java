@@ -13,5 +13,6 @@ public class Main {
         int bonus = ticket_price / 20;
 
         System.out.println("Начисленно " + bonus + " бонусных миль");
+
     }
 }
