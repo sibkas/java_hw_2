@@ -1,15 +1,17 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        // Объявляете переменные для входных данных и
+        // параметров программы: одну для хранения
+        // стоимости билета, другую для хранения количества
+        // рублей для одной бонусной мили
+
+        // Рассчитываете количество бонусных миль, используя
+        // значения заведённых переменных. Ответ сохраняете в
+        // новую переменную и выводите на экран
+        int ticket_price = 13676;
+        int bonus = ticket_price / 20;
+
+        System.out.println("Начисленно " + bonus + " бонусных миль");
     }
 }
